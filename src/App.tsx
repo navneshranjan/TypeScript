@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import { Heading } from "./components/childrenProps/Heading";
+import { Oscar } from "./components/childrenProps/Oscar";
 import { Greet } from "./components/Greet";
 import { Namelist } from "./components/Namelist";
 import { Status } from "./components/Status";
@@ -15,6 +17,10 @@ function App() {
       {/* <Greet name="navnesh" isLoggedIn={true} messages={20} />
       <Namelist names={nameList} /> */}
       <Status status="error" />
+      <Heading>hello</Heading>
+      <Oscar>
+        <Heading>Oscar goes to GOOGLE....!!!</Heading>
+      </Oscar>
     </div>
   );
 }
