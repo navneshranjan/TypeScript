@@ -21,6 +21,7 @@ function App() {
       <Oscar>
         <Heading>Oscar goes to GOOGLE....!!!</Heading>
       </Oscar>
+      <Greet name="navnesh" isLoggedIn={true} />
     </div>
   );
 }
